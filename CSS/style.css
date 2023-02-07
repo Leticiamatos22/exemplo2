@@ -16,6 +16,7 @@ header{
 }
 header li{
     transition: 0.3s;
+    color: white;
 }
 header li:hover{
     font-size: 20px;
@@ -25,6 +26,7 @@ header ul{
     flex-direction: row;
     justify-content:space-around;
     list-style: none;
+    color: white;
 }
 main{
     background-image: linear-gradient(to right, rgba(19, 21, 88, 0.7), rgba(15, 96, 142, 0.7),rgba(19, 21, 88, 0.7));
