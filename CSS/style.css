@@ -16,6 +16,7 @@ header{
 }
 header li{
     transition: 0.3s;
+    color: white;
 }
 header li:hover{
     font-size: 20px;
@@ -25,13 +26,6 @@ header ul{
     flex-direction: row;
     justify-content:space-around;
     list-style: none;
-}
-header button{
-    background-color:rgb(18, 26, 50);
-    color:rgb(253, 250, 250);
-   
-
-
 }
 main{
     background-image: linear-gradient(to right, rgba(19, 21, 88, 0.7), rgba(15, 96, 142, 0.7),rgba(19, 21, 88, 0.7));
