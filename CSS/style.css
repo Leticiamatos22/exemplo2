@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    color: rgb(253, 250, 250);
+    color: white;
     background-image: url("../Img/fundo.jpg");
     background-size: 90%;
     
@@ -16,7 +16,6 @@ header{
 }
 header li{
     transition: 0.3s;
-    color: white;
 }
 header li:hover{
     font-size: 20px;
