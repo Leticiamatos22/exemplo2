@@ -13,6 +13,7 @@ header{
     background-color: rgb(18, 26, 50);
     padding: 15px;
     align-items: center; 
+    p
 }
 header li{
     transition: 0.3s;
@@ -23,6 +24,7 @@ header a{
 }
 header li:hover{
     font-size: 20px;
+    text-shadow: 0px 1px 65px rgb(86, 141, 149); ;
 }
 header ul{
     display: flex;
@@ -38,47 +40,75 @@ main{
     align-items: center; /*Alinha na direção do flex*/
 }
 
-
 main #sobre{
     background-color: rgb(10, 0, 50);
     background-image: linear-gradient(to right, rgba(19, 21, 88, 0.7), rgba(15, 96, 142, 0.7),rgba(19, 21, 88, 0.7));
-    box-shadow: 0px 4px 15px rgb(112, 236, 255);  
     width: 50%;
     height: 170px;
     text-align: center;
     padding: 20px;
+    transition: 0.2s;
+    box-shadow: 0px 4px 15px rgb(112, 236, 255);
 }
 
 main #inicio{
     text-align: center;
     padding: 90px; 
-    
+}
+#inicio p{
+    transition: 0.2s;
+}
+#inicio p:hover{
+    text-shadow: 0px 2px 3px rgba(48, 153, 172, 0.2);
+    font-size: 17px;
+}
+#inicio h1{
+    transition: 0.4s;
+}
+#inicio h1:hover{
+    font-size: 35px;
 }
 #sobre div{
     text-align: left;
     padding: 15px; 
     display: inline-flex;
     gap: 130px;
-
+    
 }
 .imagem{
    height: 130px ;
+   transition: 0.3s;
+}
+
+.imagem:hover{
+    height: 140px;
+
 }
 #linguagens{
     opacity: 0;
-    transition: 0.4s;   
-    background-color: rgb(41, 37, 37);
+    transition: 0.5s;   
+    width: 60%;
+    height: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(2, 2, 41, 0.1);
 }
 #linguagens:hover{
     opacity: 1;
+
 }
 #linguagens h2{
     text-align: center;
 }
 #linguagens div{
-    padding-top: 10px;
+    padding-top: 40px;
+    padding-left: 30px;
     display: inline-flex;
-
+    justify-content: space-between;
+    gap: 120px;
+}
+#linguagens li{
+    padding: 7px;
 }
 .gif{
     width: 200px;
@@ -86,7 +116,7 @@ main #inicio{
 #contato{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 80px;
     gap: 10px;
     text-align: center;
 }
@@ -100,6 +130,18 @@ main #inicio{
     gap: 10px;
     padding-bottom: 20px;
 }
+ #button{
+    width: 100px;
+    height: 30%;
+    margin-left: 110px;
+    background-color: rgb(23, 161, 18);
+    padding: 5px;
+}
+
+#button:hover{
+    box-shadow: 0 0 10px 0 #5face0 inset, 0 0 10px 4px #3498db;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -108,4 +150,7 @@ footer{
     background-color:  rgb(18, 26, 50); /*rgb(40,0,70)*/
     padding: 10px;
     box-shadow: 0px 2px 15px rgb(112, 236, 255);  
+}
+.animacao p{
+    animation: type 4s steps(60, end);
 }
