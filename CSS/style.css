@@ -13,7 +13,6 @@ header{
     background-color: rgb(18, 26, 50);
     padding: 15px;
     align-items: center; 
-    p
 }
 header li{
     transition: 0.3s;
