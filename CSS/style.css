@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    color: rgb(255, 255, 255);
+    color: rgb(253, 250, 250);
     background-image: url("../Img/fundo.jpg");
     background-size: 90%;
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
@@ -30,6 +30,7 @@ header ul{
     flex-direction: row;
     justify-content:space-around;
     list-style: none;
+    color: white;
 }
 main{
     background-image: linear-gradient(to right, rgba(8, 10, 57, 0.9), rgba(12, 45, 62, 0.9),rgba(19, 21, 88, 0.7));
